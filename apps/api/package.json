@@ -19,6 +19,8 @@
   ],
   "scripts": {
     "seed": "medusa exec ./src/scripts/seed.ts",
+    "seed:nople": "medusa exec ./src/scripts/seed-nople-coffee.ts",
+    "predeploy": "medusa db:migrate && medusa db:setup",
     "start": "medusa start",
     "dev": "medusa develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",

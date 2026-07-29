@@ -25,17 +25,19 @@ module.exports = withMercur({
     {
       resolve: '@mercurjs/core/modules/admin-ui',
       options: {
-        appDir: '',
+        // In production, point appDir to the built admin Vite output (dist/).
+        // In development, disable is true so Vite dev server handles the UI.
+        appDir: process.env.NODE_ENV === 'production' ? '../admin-test' : '',
         path: '/dashboard',
-        disable: true
+        disable: process.env.NODE_ENV !== 'production'
       }
     },
     {
       resolve: '@mercurjs/core/modules/vendor-ui',
       options: {
-        appDir: '',
+        appDir: process.env.NODE_ENV === 'production' ? '../vendor' : '',
         path: '/seller',
-        disable: true
+        disable: process.env.NODE_ENV !== 'production'
       }
     },
     {
