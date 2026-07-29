@@ -1123,6 +1123,11 @@ export function getRouteMap({
                           import("./pages/settings/store/professional-details"),
                       },
                       {
+                        path: "coffee-profile",
+                        lazy: () =>
+                          import("./pages/settings/store/coffee-profile"),
+                      },
+                      {
                         path: "store-closure",
                         lazy: () =>
                           import("./pages/settings/store/store-closure"),

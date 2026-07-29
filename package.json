@@ -1,5 +1,5 @@
 {
-  "name": "mercur",
+  "name": "nople",
   "private": true,
   "scripts": {
     "build": "turbo run build",

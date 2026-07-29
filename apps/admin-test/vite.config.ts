@@ -15,6 +15,7 @@ export default defineConfig(({ mode }) => {
       react(),
       mercurDashboardPlugin({
         medusaConfigPath: '../api/medusa-config.ts',
+        name: 'Nople',
         ...(backendUrl ? { backendUrl } : {}),
         ...(vendorUrl ? { vendorUrl } : {}),
       }),
