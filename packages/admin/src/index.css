@@ -1,4 +1,5 @@
 @import "@medusajs/dashboard/css";
+@import "./nople-theme.css";
 
 @tailwind base;
 @tailwind components;

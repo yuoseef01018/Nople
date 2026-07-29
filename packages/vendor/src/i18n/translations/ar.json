@@ -3048,6 +3048,27 @@
         "description": "هل أنت متأكد من رغبتك في إزالة فترة الإجازة هذه؟"
       },
       "deleteSuccess": "تم حذف الإجازة بنجاح."
+    },
+    "coffeeProfile": {
+      "header": "ملف القهوة",
+      "empty": {
+        "title": "لا توجد تفاصيل لملف القهوة",
+        "message": "أضف نوع المزرعة والمنطقة والشهادات وقدرات التحميص."
+      },
+      "edit": {
+        "header": "تعديل ملف القهوة",
+        "description": "حدّث التفاصيل الخاصة بالقهوة لمتجرك.",
+        "successToast": "تم تحديث ملف القهوة بنجاح."
+      },
+      "fields": {
+        "farmType": "نوع المزرعة",
+        "region": "المنطقة / المصدر",
+        "altitude": "الارتفاع (متر فوق سطح البحر)",
+        "organicCertifications": "شهادات العضوية",
+        "roastingCapabilities": "قدرات التحميص",
+        "processingMethods": "طرق المعالجة",
+        "harvestSeason": "موسم الحصاد"
+      }
     }
   },
   "regions": {

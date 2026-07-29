@@ -11,6 +11,7 @@ import { SellerStatus } from "@mercurjs/types";
 import { StoreAddressSection } from "./_components/store-address-section";
 import { StoreTimeOffSection } from "./_components/store-time-off-section";
 import { StoreGeneralSection } from "./_components/store-general-section";
+import { StoreCoffeeProfileSection } from "./_components/store-coffee-profile-section";
 import { StorePaymentDetailsSection } from "./_components/store-payment-details-section";
 import { StoreProfessionalDetailsSection } from "./_components/store-professional-details-section";
 import {
@@ -100,6 +101,7 @@ const Root = ({ children }: { children?: ReactNode }) => {
       <TwoColumnPage.Sidebar>
         <StoreAddressSection seller={seller} />
         <StoreProfessionalDetailsSection seller={seller} />
+        <StoreCoffeeProfileSection seller={seller} />
         <StorePaymentDetailsSection seller={seller} />
       </TwoColumnPage.Sidebar>
     </TwoColumnPage>

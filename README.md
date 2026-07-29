@@ -1,21 +1,19 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <a href="https://github.com/mercurjs/mercur">
-   <img src="https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67a225dc6fa298afc1cc4ae6_Mercur%20Cover.png" alt="Mercur">
+  <a href="https://github.com/yuoseef01018/Nople">
+   <img src="apps/vendor/public/logo.svg" width="120" alt="Nople" />
   </a>
 
-  <h3 align="center">Mercur</h3>
+  <h3 align="center">Nople</h3>
 
   <p align="center">
-   The open-source marketplace platform. A Mirakl alternative.
+   The open-source B2B marketplace for coffee suppliers. A coffee trade platform.
     <br />
-    <a href="https://mercurjs.com/"><strong>Website</strong></a>
-    <br />
-    <a href="#getting-started">Getting Started</a>
+    <a href="#getting-started"><strong>Getting Started</strong></a>
     &middot;
-    <a href="https://docs.mercurjs.com">Docs</a>
+    <a href="#coffee-profile">Coffee Profile</a>
     &middot;
-    <a href="https://discord.gg/hnZBzc4NJU">Discord</a>
+    <a href="#seed-data">Seed Data</a>
   </p>
 </p>
 
@@ -23,40 +21,35 @@
 
 <div align="center">
   <!-- Shields.io Badges -->
-  <a href="https://github.com/mercurjs/mercur/tree/main?tab=MIT-1-ov-file">
+  <a href="https://github.com/yuoseef01018/Nople/tree/main?tab=MIT-1-ov-file">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
   </a>
-  <a href="https://github.com/mercurjs/mercur/issues/new/choose">
+  <a href="https://github.com/yuoseef01018/Nople/issues/new/choose">
     <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
   </a>
-  <a href="https://www.mercurjs.com/contact">
-    <img alt="Support" src="https://img.shields.io/badge/support-contact%20author-blueviolet.svg" />
-  </a>
-  <a href="https://discord.gg/hnZBzc4NJU">
-    <img alt="Discord" src="https://img.shields.io/badge/Discord-Join%20Chat-5865F2?logo=discord&logoColor=white" />
-  </a>
-  <a href="https://github.com/mercurjs/mercur/issues?q=is%3Aissue%20state%3Aclosed">
-    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/mercurjs/mercur" />
-  </a>
+  <img alt="Platform" src="https://img.shields.io/badge/platform-B2B%20Coffee-orange.svg" />
+  <img alt="Colors" src="https://img.shields.io/badge/colors-Navy%20%2B%20Vanilla-1b2a4a.svg" />
 </div>
 
-## What is Mercur
+## What is Nople
 
-<img width="100%" alt="demo-screen" src="https://github.com/user-attachments/assets/8b73163c-230a-46c4-b86c-fed4fa339964" />
+**Nople** is an open-source, headless B2B marketplace platform built for the global coffee trade. It connects coffee producers, estates, cooperatives, and roasters with wholesale buyers — roasters, cafés, distributors, and importers — in a single multi-vendor marketplace. Each supplier gets their own dashboard and public profile page to showcase their farm, origin, certifications, roasting capabilities, and product catalog.
 
-**Mercur** is an open-source, headless platform for building multi-vendor marketplaces. Add vendor onboarding, multi-vendor catalogs, offers, commissions, and automated payouts on top of a commerce core you can change at its foundation. Run B2C, B2B, and hybrid marketplaces without choosing between a profit-draining SaaS platform and a build from scratch.
+Nople is built on top of [Mercur](https://github.com/mercurjs/mercur), the open-source multi-vendor marketplace engine, which itself stands on [Medusa.js](https://medusajs.com/). This means you inherit a mature, battle-tested commerce core — catalog, orders, payments, shipping, tax, and stock — plus the marketplace layer (vendor onboarding, multi-vendor catalogs, offers, commissions, and payouts), customized end-to-end for the coffee industry.
 
-- **Own your marketplace, no fees**: Self-host on your own infrastructure with full source access. No percentage of GMV, no per-transaction cut, no vendor lock-in — your data, your customers, and your roadmap stay yours.
-- **Built for the marketplace model**: Vendor onboarding, multi-vendor catalogs, offers, commissions, and automated payouts are built in — multiple sellers can list offers against the same product, so you're not rebuilding marketplace logic on top of a single-seller commerce engine.
-- **Headless and customizable, no forks**: TypeScript, event-driven, and API-first — serve any storefront or frontend. Extend or override workflows, products, and vendor rules through a composable architecture built for the most complex B2B and multi-vendor models, without patching the core.
-- **Standing on [Medusa](https://medusajs.com/)**: Inherit a mature, battle-tested commerce core — catalog, orders, payments, shipping, tax, and stock — instead of reinventing it. Mercur adds the marketplace layer on top of **[Medusa](https://medusajs.com/)**.
-- **Production-ready and AI-native**: Run real marketplaces in production today, on an architecture designed for AI-assisted development — an introspectable, API-first stack that works hand in hand with your AI coding tools.
+### Why Nople for coffee
 
-![Mercur Use Cases](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67b46aa08180d5b8499c6a15_Use-cases.jpg)
+- **Built for coffee suppliers**: Every vendor profile carries coffee-specific fields — farm type, geographic region, altitude, organic certifications, roasting capabilities, processing methods, and harvest season — so buyers can evaluate origin and quality at a glance.
+- **B2B wholesale by default**: Multi-variant products by weight (250g, 500g, 1kg, 5kg, 25kg), bulk pricing, and sample request flows designed for trade buyers, not retail shoppers.
+- **Navy + Vanilla identity**: A calm, professional visual identity in deep navy (`#1B2A4A`) and warm vanilla (`#F3E9D2`) with coffee accents (`#6F4E37`) — a palette that feels premium and trade-appropriate across admin and vendor panels.
+- **Own your marketplace, no fees**: Self-host on your own infrastructure with full source access. No percentage of GMV, no per-transaction cut, no vendor lock-in.
+- **Headless and customizable**: TypeScript, event-driven, and API-first — serve any storefront or frontend, extend or override workflows through a composable architecture.
+- **Standing on Medusa**: Inherit catalog, orders, payments, shipping, tax, and stock from a mature commerce core, with the marketplace layer added on top.
 
 ### Built With
 
 - [Medusa.js](https://medusajs.com/)
+- [Mercur](https://github.com/mercurjs/mercur)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React.js](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
@@ -66,42 +59,95 @@
 
 ## Architecture
 
-Mercur is modular. Each piece is a separate, independently deployable app that talks to the core over APIs.
+Nople is modular. Each piece is a separate, independently deployable app that talks to the core over APIs.
 
-- **Mercur Core**: the marketplace engine on top of Medusa, with vendors, commissions, payouts, and multi-vendor primitives.
-- **Admin Panel**: marketplace operators manage vendors, catalog, categories, commissions, and rules.
-- **Vendor Panel**: sellers manage their products, orders, and payouts.
-- **Storefronts**: customer-facing B2C/B2B apps with multi-vendor browsing, cart, and checkout.
+- **Nople Core**: the marketplace engine on top of Medusa, with vendors, commissions, payouts, and multi-vendor primitives — customized with coffee-specific seller metadata.
+- **Admin Panel**: marketplace operators manage vendors, catalog, categories, commissions, and rules. Branded as "Nople Admin" with the Navy + Vanilla theme.
+- **Vendor Panel**: coffee suppliers manage their products, orders, and payouts, and maintain their coffee profile (farm, region, certifications, roasting). Branded as "Nople Vendor Hub" with the Navy + Vanilla theme.
+- **Storefronts**: customer-facing B2B apps with multi-vendor browsing, cart, and checkout (build your own using the headless API).
 
-![Mercur](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67a1020f202572832c954ead_6b96703adfe74613f85133f83a19b1f0_Fleek%20Tilt%20-%20Readme.png)
+## Coffee Profile
 
-## What's in this repo
+Every coffee supplier on Nople has a rich, coffee-specific profile stored in the seller `metadata` field (no database migrations required). The profile is edited through the Vendor Panel under **Settings → Store → Coffee Profile** and displayed on the store detail page sidebar.
 
-This is the Mercur development monorepo: the `@mercurjs/core` plugin, the React + Vite admin and vendor dashboards, the `@mercurjs/cli`, the typed API client, the dashboard SDK, the Stripe Connect payout provider, and the cross-package integration suites. If you just want to build a marketplace, run `bun create mercur-app@latest` (see [Getting Started](#getting-started)) - clone this repo only when you want to contribute to Mercur itself.
+The coffee profile captures the information coffee buyers care about most:
+
+| Field | Description | Example |
+| --- | --- | --- |
+| **Farm Type** | The kind of operation the supplier runs | Large Estate, Smallholder Co-op, Micro-Mill, Direct Trade |
+| **Region / Origin** | Geographic origin of the coffee | Yirgacheffe, Ethiopia |
+| **Altitude (masl)** | Growing altitude in meters above sea level | 1800-2200 |
+| **Organic Certifications** | Certifications held | USDA Organic, Fair Trade, Rainforest Alliance |
+| **Roasting Capabilities** | What the supplier can roast and ship | Green Beans Only, Light, Medium, Medium-Dark, Dark, Custom |
+| **Processing Methods** | How the cherry is processed | Washed, Natural, Honey, Anaerobic, Wet-Hulled |
+| **Harvest Season** | When the coffee is harvested | Nov-Feb (main), Jun-Aug (fly) |
+
+Because these fields live in the seller `metadata` JSON field — which the `UpdateSeller` API already accepts as `z.record(z.unknown())` — the coffee profile works without any backend changes or database migrations. The vendor panel reads from and writes to `seller.metadata`, merging with any existing metadata to avoid overwriting other fields.
+
+## Seed Data
+
+Nople ships with a coffee-specific seed script (`apps/api/src/scripts/seed-nople-coffee.ts`) that creates a realistic starting point for a coffee marketplace.
+
+### Coffee Categories
+
+- **Arabica Beans** — single-origin Arabica green and roasted beans
+- **Robusta Beans** — Robusta for espresso blends and instant
+- **Blended Roasts** — house and custom blends
+- **Ground Coffee** — pre-ground for cafés and foodservice
+- **Coffee Equipment** — brewing and roasting equipment for trade buyers
+
+### Sample Products
+
+Each product includes multiple variants by weight (250g, 500g, 1kg, 5kg, 25kg) with USD and EUR pricing, stock levels, and Unsplash coffee photography:
+
+- **Ethiopia Yirgacheffe Arabica** — washed, light roast, single-origin
+- **Brazil Santos Arabica** — natural process, medium roast
+- **Vietnam Robusta** — wet-hulled, dark roast, espresso-grade
+- **Nople House Blend** — medium-dark, balanced blend
+- **Espresso Ground** — fine grind, pre-ground for foodservice
+
+### Regions, Stock & Shipping
+
+- **Region** with coffee-producing and consuming countries (Egypt, Saudi Arabia, UAE, Yemen, Ethiopia, Brazil, Vietnam, USA, UK, Germany)
+- **Stock Location** — "Nople Coffee Hub" in Cairo, Egypt
+- **Shipping Options** — Standard Coffee Shipping and Express Cold Chain
+
+Run the seed with:
+
+```sh
+cd apps/api
+npx medusa exec src/scripts/seed-nople-coffee.ts
+```
+
+## Visual Identity
+
+Nople uses a **Navy + Vanilla** color palette across both the admin and vendor panels, defined in CSS custom properties:
+
+| Token | Hex | Use |
+| --- | --- | --- |
+| `--nople-navy` | `#1B2A4A` | Primary, sidebar, headers, buttons |
+| `--nople-vanilla` | `#F3E9D2` | Backgrounds, accents, text on navy |
+| `--nople-coffee` | `#6F4E37` | Secondary accent, coffee iconography |
+
+The theme files (`packages/admin/src/nople-theme.css` and `packages/vendor/src/nople-theme.css`) override the Medusa UI primary color, sidebar background, and button styles. A custom coffee-bean logo (`apps/vendor/public/logo.svg` and `apps/admin-test/public/logo.svg`) replaces the default branding.
 
 ## Deployment
 
-Because Mercur is a plain Node.js application backed by PostgreSQL and Redis, it deploys the same way whether you ship it as a container, orchestrate it with Kubernetes, push it to a managed cloud, or lock it inside an air-gapped network. There's no proprietary runtime to adopt and no hosting tier you're forced onto, so where your marketplace lives and where its data sits stay entirely under your control. Prefer a managed backend? Mercur also deploys to [Medusa Cloud](https://medusajs.com/pricing/) with push-to-deploy and auto-scaling.
+Because Nople is a plain Node.js application backed by PostgreSQL and Redis, it deploys the same way whether you ship it as a container, orchestrate it with Kubernetes, push it to a managed cloud, or lock it inside an air-gapped network. There's no proprietary runtime to adopt and no hosting tier you're forced onto, so where your marketplace lives and where its data sits stay entirely under your control. Prefer a managed backend? Nople also deploys to [Medusa Cloud](https://medusajs.com/pricing/) with push-to-deploy and auto-scaling.
 
 ## License
 
-This repository is **Mercur core**, licensed under the [MIT License](./LICENSE) and fully open source. It's the marketplace engine on top of [Medusa](https://medusajs.com) — vendors, multi-vendor catalogs, offers, commissions, and payouts, with the admin and vendor dashboards and APIs to run a marketplace yourself.
-
-**Mercur Enterprise** adds a licensed suite of advanced modules (EAN matching & deduplication, a Buy Box / winning-offer engine, master-data governance, multi-channel stock sync, automated split payouts, vendor KYC, and much more), all maintained, tested, and upgraded by the core team. You deploy and run Enterprise on your own infrastructure, exactly like the open-source core.
-
-It comes backed by a direct support relationship with the people who build the platform: a dedicated support channel, contractual SLAs with guaranteed response times, prioritized bug fixes and security patches, and hands-on onboarding and architecture guidance to get you to production. Higher support tiers add priority escalation and a named technical contact.
-
-[Book Mercur Enterprise demo](https://www.mercurjs.com/enterprise).
+This repository is licensed under the [MIT License](./LICENSE) and is fully open source. Nople is a coffee-industry customization of [Mercur](https://github.com/mercurjs/mercur), the open-source marketplace engine built on [Medusa](https://medusajs.com/).
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
-To get a local marketplace up and running, please follow these simple steps.
+To get a local coffee marketplace up and running, please follow these simple steps.
 
 ### Prerequisites
 
-Here's what you need to run Mercur.
+Here's what you need to run Nople.
 
 - Node.js (Version: >=20.x)
 - PostgreSQL (Version: >=13.x)
@@ -112,50 +158,55 @@ Here's what you need to run Mercur.
 
 ### Setup
 
-1. Create a new Mercur project
+1. Create a new Nople project (or clone this repo)
 
    ```sh
-   bun create mercur-app@latest my-marketplace
+   bun create mercur-app@latest my-coffee-marketplace
    ```
+
+   Then apply the Nople customizations (branding, theme, coffee profile, seed data) from this repository.
 
 2. Start the development server
 
    ```sh
-   cd my-marketplace
+   cd my-coffee-marketplace
    bun run dev
    ```
 
-3. Access your marketplace
+3. Seed the coffee data
+
+   ```sh
+   cd apps/api
+   npx medusa exec src/scripts/seed-nople-coffee.ts
+   ```
+
+4. Access your coffee marketplace
    - Backend API: `http://localhost:9000`
    - Admin Panel: `http://localhost:9000/dashboard`
    - Vendor Panel: `http://localhost:9000/seller`
 
-   Your marketplace comes seeded with a demo store out of the box — a ready-to-go seller (`seller@mercur.dev` / `supersecret`) with a full catalog of products and offers, so you can explore the admin and vendor panels immediately. Sign in to the Vendor Panel with those credentials, or manage everything from the Admin Panel.
+   Your marketplace comes seeded with a demo coffee store out of the box — a ready-to-go seller with a full catalog of coffee products and offers, so you can explore the admin and vendor panels immediately.
 
-## Professional services
+## Roadmap & Suggestions
 
-Mercur is built and maintained by [Rigby](https://rigbyjs.com), a team that has designed, built, and launched multi-vendor marketplaces in production. If you'd rather not do it alone, we work alongside your engineers — from architecture reviews and integrating Mercur with your existing stack to hardening, scaling, and getting your marketplace live on schedule. [Talk to our team](https://www.mercurjs.com/contact).
+Nople is designed to grow into a full coffee trade platform. Planned and suggested directions:
+
+- **Vendor rating & review system** — let buyers rate suppliers on bean quality, consistency, shipping, and communication, with aggregate scores on the vendor profile page.
+- **Sample request flow** — a lightweight RFQ-style flow where buyers request sample bags (50g–250g) before committing to a bulk order, tracked as a sample order with its own status.
+- **B2B wholesale pricing tiers** — volume-based price breaks per product (e.g. 1kg = $X, 5kg = 10% off, 25kg = 20% off), displayed clearly on product and vendor pages.
+- **Arabic localization** — full Arabic (`ar`) translations for the admin and vendor panels, including RTL layout support, so the platform serves the MENA coffee trade natively.
+- **Origin traceability** — link each product lot to its farm, altitude, and harvest date, with a public traceability view for buyers.
+- **Cupping scores & tasting notes** — store cupping scores, flavor descriptors, and roast dates on each product variant.
+- **Contract & pre-harvest ordering** — forward contracts where buyers commit to buying a harvest before it ships, with milestone tracking.
 
 ## Contribution
 
-Mercur is an Open Source project and we encourage everyone to help us making it better. If you are interested in contributing to the project, please read our [Contributing Guide](https://raw.githubusercontent.com/mercurjs/mercur/refs/heads/new/CONTRIBUTING.md) and [Code of Conduct](https://raw.githubusercontent.com/mercurjs/mercur/refs/heads/new/CODE_OF_CONDUCT.md).
+Nople is an Open Source project and we encourage everyone to help us make it better. If you are interested in contributing, please read the [Contributing Guide](https://github.com/mercurjs/mercur/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/mercurjs/mercur/blob/main/CODE_OF_CONDUCT.md).
 
-If you have any questions about contributing, please join our [Discord server](https://discord.gg/hnZBzc4NJU) - we are happy to help you!
+If you have any questions about contributing, feel free to [open an issue](https://github.com/yuoseef01018/Nople/issues/new/choose) on GitHub.
 
-Discovered a 🐜 or have feature suggestion? Feel free to [create an issue](https://github.com/mercurjs/mercur/issues/new/choose) on Github.
+Discovered a bug or have a feature suggestion? Feel free to [create an issue](https://github.com/yuoseef01018/Nople/issues/new/choose).
 
-## Upgrades
+## Acknowledgements
 
-Follow the [Release Notes](https://github.com/mercurjs/mercur/releases) to keep your Mercur marketplace up-to-date.
-
-## Contributors
-
-<a href="https://github.com/mercurjs/mercur/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mercurjs/mercur" alt="Mercur contributors" />
-</a>
-
-## Star history
-
-<a href="https://star-history.com/#mercurjs/mercur&Date">
-  <img src="https://api.star-history.com/svg?repos=mercurjs/mercur&type=Date" alt="Star History Chart" width="70%" />
-</a>
+Nople is built on top of [Mercur](https://github.com/mercurjs/mercur) by the Mercur team, which stands on [Medusa.js](https://medusajs.com/). Huge thanks to both projects for the open-source foundation that makes Nople possible.

@@ -1,0 +1,58 @@
+/*
+ * Nople — Coffee Suppliers Marketplace
+ * Brand theme: Navy (kohlī) + Vanilla (creamy) on top of the Medusa UI base.
+ *
+ * These overrides sit on top of @medusajs/dashboard/css and re-skin the
+ * primary, accent, and surface tokens so the dashboards read as "Nople"
+ * rather than the default purple Medusa palette.
+ */
+
+:root,
+.light {
+  /* Brand primaries — Navy */
+  --nople-navy: #1b2a4a;
+  --nople-navy-soft: #243459;
+  --nople-navy-contrast: #ffffff;
+
+  /* Brand accent — Vanilla */
+  --nople-vanilla: #f3e9d2;
+  --nople-vanilla-soft: #efe3c4;
+  --nople-vanilla-contrast: #1b2a4a;
+
+  /* Coffee tones for accents */
+  --nople-coffee: #6f4e37;
+  --nople-coffee-soft: #8a6a51;
+
+  /* Map onto Medusa UI's primary surface so buttons, badges, and the
+     sidebar inherit the Nople navy instead of the default purple. */
+  --color-primary: var(--nople-navy);
+  --color-primary-hover: var(--nople-navy-soft);
+  --color-primary-contrast: var(--nople-navy-contrast);
+}
+
+/* Sidebar / app-shell uses the primary surface; nudge it toward navy. */
+aside,
+[data-sidebar],
+.main-layout-sidebar {
+  background-color: var(--nople-navy);
+  color: var(--nople-navy-contrast);
+}
+
+/* Primary buttons read as vanilla-on-navy for a coffee-marketplace feel. */
+button[data-variant="primary"],
+button[class*="primary"] {
+  background-color: var(--nople-navy);
+  color: var(--nople-vanilla);
+}
+
+button[data-variant="primary"]:hover,
+button[class*="primary"]:hover {
+  background-color: var(--nople-navy-soft);
+}
+
+/* Accent / informational surfaces use the coffee tone. */
+.accent-bg,
+[data-variant="accent"] {
+  background-color: var(--nople-vanilla);
+  color: var(--nople-vanilla-contrast);
+}
